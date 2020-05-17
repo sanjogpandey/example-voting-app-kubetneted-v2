@@ -5,7 +5,6 @@ metadata:
   labels:
     name: db-service
     app: demo-voting-app
-
 spec:
   ports:
   - port: 5432

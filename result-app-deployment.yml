@@ -16,6 +16,7 @@ spec:
       labels:
         name: result-app-pod
         app: demo-voting-app
+
     spec:
       containers:
       - name: result-app

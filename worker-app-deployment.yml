@@ -5,7 +5,7 @@ metadata:
   labels:
     app: demo-voting-app
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       name: worker-app-pod
@@ -16,6 +16,7 @@ spec:
       labels:
         name: worker-app-pod
         app: demo-voting-app
+
     spec:
       containers:
       - name: worker-app
